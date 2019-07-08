@@ -7,8 +7,7 @@
 
 # dependencies
 /bin
-obj
-obj/Debug
+/obj
 
 # IDEs and editors
 /.idea
@@ -20,6 +19,7 @@ obj/Debug
 *.sublime-workspace
 
 # IDE - VSCode
+.vs
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -39,3 +39,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+DatingApp.db

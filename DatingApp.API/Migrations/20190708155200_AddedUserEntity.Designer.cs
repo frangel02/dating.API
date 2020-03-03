@@ -23,6 +23,8 @@ namespace DatingApp.API.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Username");
+
                     b.Property<byte[]>("PasswordHash");
 
                     b.Property<byte[]>("PasswordSalt");
